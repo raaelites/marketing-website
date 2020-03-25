@@ -1,0 +1,17 @@
+{
+	"name": "marketing-website",
+	"version": "1.0.0",
+	"description": "Official Marketing Website",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss src/style.css -o dist/css/tailwind.css",
+		"watch": "postcss src/style.css -o dist/css/tailwind.css --watch"
+	},
+	"author": "Davis Gitonga",
+	"license": "ISC",
+	"dependencies": {
+		"autoprefixer": "^9.7.4",
+		"postcss-cli": "^7.1.0",
+		"tailwindcss": "^1.2.0"
+	}
+}
